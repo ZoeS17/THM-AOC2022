@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.93 scan initiated Wed Dec 21 19:49:21 2022 as: nmap -sC -sV -oA nmap/mqtt-ports -p 1883 10.10.118.144 -->
+<nmaprun scanner="nmap" args="nmap -sC -sV -oA nmap/mqtt-ports -p 1883 10.10.118.144" start="1671673761" startstr="Wed Dec 21 19:49:21 2022" version="7.93" xmloutputversion="1.05">
+<scaninfo type="connect" protocol="tcp" numservices="2" services="1883"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="10.10.118.144" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<host starttime="1671673778" endtime="1671673797"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="10.10.118.144" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="1883"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="mosquitto version 1.6.9" method="probed" conf="10"/><script id="mqtt-subscribe" output="&#xa;  Topics and their most recent payloads: &#xa;    $SYS/broker/load/bytes/sent/15min: 171.16&#xa;    $SYS/broker/load/sockets/5min: 0.40&#xa;    $SYS/broker/load/sockets/1min: 1.83&#xa;    $SYS/broker/store/messages/bytes: 214&#xa;    $SYS/broker/messages/received: 216&#xa;    $SYS/broker/load/bytes/received/5min: 216.75&#xa;    $SYS/broker/heap/current: 54776&#xa;    $SYS/broker/publish/bytes/sent: 2820&#xa;    $SYS/broker/uptime: 1430 seconds&#xa;    $SYS/broker/load/bytes/received/15min: 173.25&#xa;    $SYS/broker/load/messages/received/1min: 10.03&#xa;    $SYS/broker/load/bytes/sent/1min: 213.84&#xa;    $SYS/broker/version: mosquitto version 1.6.9&#xa;    device/init: OHQFKHWANXQXF5Y8DCDG&#xa;    $SYS/broker/load/connections/1min: 0.91&#xa;    $SYS/broker/load/connections/15min: 0.11&#xa;    $SYS/broker/publish/messages/sent: 141&#xa;    $SYS/broker/load/publish/sent/1min: 5.82&#xa;    $SYS/broker/publish/messages/received: 141&#xa;    $SYS/broker/load/publish/sent/5min: 5.91&#xa;    $SYS/broker/load/messages/received/15min: 7.24&#xa;    $SYS/broker/load/messages/sent/15min: 7.24&#xa;    $SYS/broker/messages/sent: 216&#xa;    $SYS/broker/load/bytes/sent/5min: 213.85&#xa;    $SYS/broker/load/publish/received/5min: 5.91&#xa;    $SYS/broker/bytes/sent: 5099&#xa;    $SYS/broker/clients/inactive: 0&#xa;    $SYS/broker/load/connections/5min: 0.20&#xa;    $SYS/broker/heap/maximum: 56064&#xa;    $SYS/broker/publish/bytes/received: 2820&#xa;    $SYS/broker/load/bytes/received/1min: 226.63&#xa;    $SYS/broker/clients/active: 4&#xa;    $SYS/broker/bytes/received: 5196&#xa;    $SYS/broker/load/publish/received/1min: 5.82&#xa;    $SYS/broker/load/messages/sent/5min: 9.15&#xa;    $SYS/broker/load/messages/sent/1min: 10.03&#xa;    $SYS/broker/load/messages/received/5min: 9.15&#xa;    $SYS/broker/clients/connected: 4&#xa;    $SYS/broker/clients/disconnected: 0&#xa;    $SYS/broker/load/sockets/15min: 0.17"><table key="Topics and their most recent payloads">
+<elem key="$SYS/broker/load/bytes/sent/15min">171.16</elem>
+<elem key="$SYS/broker/load/sockets/5min">0.40</elem>
+<elem key="$SYS/broker/load/sockets/1min">1.83</elem>
+<elem key="$SYS/broker/store/messages/bytes">214</elem>
+<elem key="$SYS/broker/messages/received">216</elem>
+<elem key="$SYS/broker/load/bytes/received/5min">216.75</elem>
+<elem key="$SYS/broker/heap/current">54776</elem>
+<elem key="$SYS/broker/publish/bytes/sent">2820</elem>
+<elem key="$SYS/broker/uptime">1430 seconds</elem>
+<elem key="$SYS/broker/load/bytes/received/15min">173.25</elem>
+<elem key="$SYS/broker/load/messages/received/1min">10.03</elem>
+<elem key="$SYS/broker/load/bytes/sent/1min">213.84</elem>
+<elem key="$SYS/broker/version">mosquitto version 1.6.9</elem>
+<elem key="device/init">OHQFKHWANXQXF5Y8DCDG</elem>
+<elem key="$SYS/broker/load/connections/1min">0.91</elem>
+<elem key="$SYS/broker/load/connections/15min">0.11</elem>
+<elem key="$SYS/broker/publish/messages/sent">141</elem>
+<elem key="$SYS/broker/load/publish/sent/1min">5.82</elem>
+<elem key="$SYS/broker/publish/messages/received">141</elem>
+<elem key="$SYS/broker/load/publish/sent/5min">5.91</elem>
+<elem key="$SYS/broker/load/messages/received/15min">7.24</elem>
+<elem key="$SYS/broker/load/messages/sent/15min">7.24</elem>
+<elem key="$SYS/broker/messages/sent">216</elem>
+<elem key="$SYS/broker/load/bytes/sent/5min">213.85</elem>
+<elem key="$SYS/broker/load/publish/received/5min">5.91</elem>
+<elem key="$SYS/broker/bytes/sent">5099</elem>
+<elem key="$SYS/broker/clients/inactive">0</elem>
+<elem key="$SYS/broker/load/connections/5min">0.20</elem>
+<elem key="$SYS/broker/heap/maximum">56064</elem>
+<elem key="$SYS/broker/publish/bytes/received">2820</elem>
+<elem key="$SYS/broker/load/bytes/received/1min">226.63</elem>
+<elem key="$SYS/broker/clients/active">4</elem>
+<elem key="$SYS/broker/bytes/received">5196</elem>
+<elem key="$SYS/broker/load/publish/received/1min">5.82</elem>
+<elem key="$SYS/broker/load/messages/sent/5min">9.15</elem>
+<elem key="$SYS/broker/load/messages/sent/1min">10.03</elem>
+<elem key="$SYS/broker/load/messages/received/5min">9.15</elem>
+<elem key="$SYS/broker/clients/connected">4</elem>
+<elem key="$SYS/broker/clients/disconnected">0</elem>
+<elem key="$SYS/broker/load/sockets/15min">0.17</elem>
+</table>
+</script></port>
+</ports>
+<times srtt="203764" rttvar="115084" to="664100"/>
+</host>
+<runstats><finished time="1671673797" timestr="Wed Dec 21 19:49:57 2022" summary="Nmap done at Wed Dec 21 19:49:57 2022; 1 IP address (1 host up) scanned in 35.52 seconds" elapsed="35.52" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

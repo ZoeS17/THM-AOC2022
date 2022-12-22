@@ -1,0 +1,4 @@
+# Nmap 7.93 scan initiated Wed Dec 21 19:49:21 2022 as: nmap -sC -sV -oA nmap/mqtt-ports -p 1883 10.10.118.144
+Host: 10.10.118.144 ()	Status: Up
+Host: 10.10.118.144 ()	Ports: 1883/open/tcp//mosquitto version 1.6.9///
+# Nmap done at Wed Dec 21 19:49:57 2022 -- 1 IP address (1 host up) scanned in 35.52 seconds
